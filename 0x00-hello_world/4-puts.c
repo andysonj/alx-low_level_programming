@@ -1,8 +1,10 @@
 #include<stdio.h>
-/*this is first program by using puts function*/
+
+/*declaring main function*/
 int main(void)
 {
-char a[] = ""Programming is like building a multilingual puzzle\n";
+/*declaring local variable*/
+char a[] = "Programming is like building a multilingual puzzle";
 
 puts(a);
 
