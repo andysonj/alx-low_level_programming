@@ -1,9 +1,11 @@
 #include<stdio.h>
-
-/*declaring main function*/
+/**
+ * main- Entry point
+ *
+ * Return:Always 0 (Success)
+*/
 int main(void)
 {
-/*declaring local variable*/
 char a[] = "\"Programming is like building a multilingual puzzle";
 puts(a);
 
