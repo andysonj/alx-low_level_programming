@@ -7,7 +7,7 @@
  *
  * Return: A pointer to the encoded string.
  */
-char *rot13(char *str)
+char *rot13(char *s)
 {
 	int str_cnt = 0, al_cnt;
 	char alpha[53] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
@@ -26,5 +26,5 @@ char *rot13(char *str)
 		}
 		str_cnt++;
 	}
-	return (str);
+	return (s);
 }
